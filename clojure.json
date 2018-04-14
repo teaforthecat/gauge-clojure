@@ -1,0 +1,25 @@
+{
+    "id" : "clojure",
+    "version" : "0.0.1",
+	  "description": "clojure support for gauge",
+    "install": {
+        "windows": [],
+        "linux": [],
+        "darwin": []
+    },
+    "run": {
+        "windows": ["bin/gauge-clojure", "--start"],
+        "linux": ["bin/gauge-clojure", "--start"],
+        "darwin": ["bin/gauge-clojure", "--start"]
+    },
+    "init": {
+        "windows": ["bin/gauge-clojure", "--init"],
+        "linux": ["bin/gauge-clojure", "--init"],
+        "darwin": ["bin/gauge-clojure", "--init"]
+    },
+    "gaugeVersionSupport": {
+        "minimum": "0.9.8",
+        "maximum": ""
+    },
+    "lspLangId" : "clojure"
+}
